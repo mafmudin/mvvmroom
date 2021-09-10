@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:text="Active"
+        android:textColor="@android:color/darker_gray"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:textColor="@android:color/darker_gray"
+        android:text="Inactive"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="12dp"/>
+</merge>
